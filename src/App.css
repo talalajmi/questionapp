@@ -7,8 +7,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100vh;
+  width: 100vw;
   background-image: url(./assets/BG1.png);
 }
 
@@ -16,8 +16,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 50%;
-  min-height: 50%;
+  max-width: 50%;
+  max-height: 50%;
 }
 
 .header__content {
@@ -97,11 +97,11 @@ body {
 }
 
 .title__image {
-  min-width: 100%;
-  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .card__image {
-  min-width: 100%;
-  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
