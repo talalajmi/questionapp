@@ -1,9 +1,12 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Home.css";
 
 const Home = () => {
   const [userName, setUserName] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+
+  const navigate = useNavigate();
 
   const submit = (e) => {
     e.preventDefault();
@@ -11,7 +14,8 @@ const Home = () => {
     setIsLoading((current) => !current);
     setTimeout(() => {
       setIsLoading((current) => !current);
-    }, 3000);
+      navigate("/questions");
+    }, 5000);
   };
 
   return (
