@@ -11,7 +11,7 @@ const Home = () => {
     setIsLoading((current) => !current);
     setTimeout(() => {
       setIsLoading((current) => !current);
-    }, 1000);
+    }, 3000);
   };
 
   return (
