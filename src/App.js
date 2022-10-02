@@ -82,14 +82,20 @@ function App() {
             alt="Title img"
           />
         </div>
-        <div>
+        <div className="-z-10">
           <img
             className="card__image"
             src={require("./assets/UIHolder1.png")}
             alt="Card img"
           />
         </div>
-        <p>hello</p>
+        <div className="absolute">
+          <img
+            src={require("./assets/Button_11.png")}
+            alt="Button img"
+            width={150}
+          />
+        </div>
       </div>
       {/* <img
         className="h-full"
