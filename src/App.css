@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./assets/BG1.png);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+}
+
+.header__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 14rem;
+  z-index: 1;
+}
+
+.header__text {
+  position: absolute;
+  color: #d7851b;
+}
+
+.card__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.question__content {
+  position: absolute;
+  top: 3rem;
+}
+
+.answer1__content {
+  position: absolute;
+  left: 2rem;
+}
+
+.answer1__text {
+  position: absolute;
+  left: 3rem;
+  bottom: 0;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.answer2__content {
+  position: absolute;
+  right: 3.7rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.answer2__text {
+  position: absolute;
+  bottom: 0;
+  right: 3em;
+  color: white;
+}
+
+.answer3__content {
+  position: absolute;
+  bottom: 4rem;
+  left: 2rem;
+}
+
+.answer3__text {
+  position: absolute;
+  bottom: 0;
+  left: 3rem;
+  color: white;
+}
+
+.answer4__content {
+  position: absolute;
+  bottom: 4rem;
+  right: 3.7rem;
+}
+
+.answer4__text {
+  position: absolute;
+  bottom: 0rem;
+  right: 3rem;
+  color: white;
+}
+
+.title__image {
+  width: 100%;
+  height: 100%;
+}
+
+.card__image {
+  width: 100%;
+  height: 100%;
 }
