@@ -75,7 +75,7 @@ function App() {
     // </div>
     <div className="bg-background-image">
       <div className="grid h-screen place-content-center relative">
-        <div className="absolute top-48">
+        <div className="absolute top-44">
           <img
             className="title__image"
             src={require("./assets/Tittle1.png")}
