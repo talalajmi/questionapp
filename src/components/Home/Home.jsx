@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Button, Input } from "reactstrap";
 import "./Home.css";
 
 const Home = () => {
@@ -29,7 +30,7 @@ const Home = () => {
         ) : (
           <form className="input__elements" onSubmit={submit}>
             <label className="name__label">Enter your name</label>
-            <input
+            <Input
               className="name__input"
               placeholder="Ali Al Riyami"
               type="text"
@@ -37,9 +38,9 @@ const Home = () => {
               required
             />
 
-            <button className="submit__button" type="submit">
+            <Button color="primary" style={{ width: "12rem" }}>
               Let's Go!
-            </button>
+            </Button>
           </form>
         )}
       </div>

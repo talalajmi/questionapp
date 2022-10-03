@@ -8,9 +8,7 @@ const Question = () => {
     <div className="question__container">
       <div className="question__content">
         <p>Questions Page</p>
-        <button onClick={() => navigate("/thank-you")}>
-          Go to thank you page
-        </button>
+        <button onClick={() => navigate("/thank-you")}>Submit Answers</button>
       </div>
     </div>
   );
